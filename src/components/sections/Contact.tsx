@@ -49,7 +49,7 @@ export default function Contact() {
     setLoading(true);
 
     try {
-      const res = await fetch('http://localhost:5000/contact', {
+      const res = await fetch('https://portfolio-backend-gpwe.onrender.com', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData)
