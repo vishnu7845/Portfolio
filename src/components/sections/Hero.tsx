@@ -30,7 +30,7 @@ export default function Hero() {
           {/* Photo */}
           <div className="w-22 h-22 md:w-36 md:h-36 rounded-full overflow-hidden border-4 border-accent shadow-lg mr-6">
             <img 
-              src="src/image/vishnu.jpg" // <<< IMPORTANT: Replace with your actual photo path
+              src="public/vishnu.png" // <<< IMPORTANT: Replace with your actual photo path
               alt="Vishnu Vardhan M"
               className="w-full h-full object-cover"
             />
@@ -76,7 +76,7 @@ export default function Hero() {
               <Button 
                 variant="treasure" 
                 size="xl"
-                onClick={() => window.open('Vishnu_Vardhan_M.pdf', '_blank')}
+                onClick={() => window.open('public/Vishnu_Vardhan_M.pdf', '_blank')}
               >
                 Download Resume
                 <FileText className="ml-2 h-5 w-5" />
