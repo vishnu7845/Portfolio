@@ -30,7 +30,7 @@ const Index = () => {
       <footer className="relative z-10 py-8 text-center border-t border-accent/20">
         <div className="glass-card inline-block px-6 py-3 mx-6">
           <p className="text-muted-foreground">
-            © 2024 Vishnu Vardhan M. Built with 💙 in Bikini Bottom
+            © 2024 Vishnu Vardhan M. Built with 💙
           </p>
         </div>
       </footer>

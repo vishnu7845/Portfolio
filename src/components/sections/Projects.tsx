@@ -7,7 +7,7 @@ const projects = [
   {
     id: 'iot-gate',
     title: 'IoT Gate Control',
-    description: 'Smart gate control system using IoT sensors and Java backend for automated access management.',
+    description: 'IoT Gate Control: A smart system using IoT sensors and a Java backend to automate gate access. It processes sensor data, manages authentication, logs events, and provides APIs for frontend interaction. Users can access via RFID, QR code, or mobile app, while admins monitor activity in real time. The system supports real-time notifications and alerts for unauthorized access. It also stores historical access data for analytics and reporting. The backend is scalable to handle multiple gates and users efficiently.',
     tech: ['Java', 'IoT', 'Sensors', 'Backend'],
     theme: 'pearl',
     icon: Zap,
@@ -17,7 +17,7 @@ const projects = [
   {
     id: 'cognimatch',
     title: 'Cognimatch',
-    description: 'A skill-matching platform where employees can list their skills and managers can upload project requirements. Based on the selected skills, the platform recommends employees whose profiles and skill sets best match the project needs, helping managers efficiently allocate resources..',
+    description: 'Cognimatch: An intelligent skill-matching platform that connects employees with projects based on their skills and experience. The backend handles user profiles, project postings, and skill requirements, and provides APIs to fetch recommended matches. Managers can assign projects efficiently while employees discover suitable opportunities. It also maintains historical matching data and analytics to improve recommendations over time. The system ensures secure authentication, data storage, and seamless integration with frontend applications.',
     tech: ['Symphony', 'Sql', 'Html', 'css', 'JavaScript', 'Tailwind CSS'],
     theme: 'jellyfish',
     icon: Brain,
@@ -27,7 +27,7 @@ const projects = [
   {
     id: 'pose-correction',
     title: 'Pose Correction Using Computer Vision',
-    description: 'AI-powered pose analysis system for real-time posture correction and feedback.',
+    description: 'Pose Correction: A backend system for analyzing yoga or exercise poses using body keypoints. It receives pose data from the frontend, calculates angles and deviations, and provides corrective feedback. The system stores user sessions, tracks progress over time, and ensures secure data handling. It also supports real-time feedback APIs for immediate guidance and integrates with analytics to monitor performance improvements.',
     tech: ['Computer Vision', 'Python', 'TensorFlow', 'OpenCV'],
     theme: 'seaweed',
     icon: Code2,
@@ -37,7 +37,7 @@ const projects = [
   {
     id: 'stream-notes',
     title: 'StreamNotes',
-    description: 'NLP-powered note-taking application with intelligent summarization and search capabilities.',
+    description: 'Stream Notes: A backend system for automating note-taking from video lectures. It handles uploading and processing of lecture videos, extracting key points, and storing structured summaries. Users can retrieve, search, and manage notes efficiently through APIs. The system ensures secure storage, handles user authentication, and supports integration with the frontend for a seamless learning experience. Additionally, it maintains performance optimizations for faster processing and reliable data access.',
     tech: ['NLP', 'React', 'Python', 'FastAPI'],
     theme: 'krabby-patty',
     icon: FileText,
